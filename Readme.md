@@ -6,7 +6,7 @@
 
 设计一个Java程序：
 - 指定目标文件夹DIRECTORY_PATH，与回收站文件夹UNUSED_IMAGES_DIR
-- 递归遍历DIRECTORY_PATH下所有的markdown文档 ，并解析所有md标准的图片文本`![]()`,相应的regex表达式为：`"!\\[.*?\\]\\((.*?)\\)"`
+- 递归遍历DIRECTORY_PATH下所有的markdown文档 ，并解析所有md标准的图片文本`![]()`，相应的regex表达式为：`"!\\[.*?\\]\\((.*?)\\)"`
 - 递归遍历DIRECTORY_PATH下所有的图片附件，相应的regex表达式为：`".png", ".jpg", ".jpeg", ".gif", ".bmp", ".svg"`
 - 扩展点：如何排除扫描目录下的图片附件：EXCLUDE_IMAGES_DIR目录和UNUSED_IMAGES_DIR目录
 - 通过比较图片名称来计算出未被md文档引用的图片，非永久删除，清理这部分文件至UNUSED_IMAGES_DIR
