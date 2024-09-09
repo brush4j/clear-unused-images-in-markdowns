@@ -10,7 +10,7 @@
 - 递归遍历directoryPath下所有的图片附件，相应的regex表达式为：`".png", ".jpg", ".jpeg", ".gif", ".bmp", ".svg"`
 - 比较出未被md文档引用的图片，非永久删除，清理这部分文件至unusedImagesDir
 
-就这么一个小功能，我搜遍了全网都没找到好用的，要么写的很简单，要么用python写的，我自己难以维护，要么用的三方插件难以定制化
+就这么一个小功能，我搜遍了全网都没找到好用的，要么写的很粗糙，要么用python/js等脚本语言写的，我自己难以维护，要么用的三方插件难以定制化
 
 索性自己写个Java版本的
 # 使用方式[UnusedImagesFinder.java](src%2Fmain%2Fjava%2Forg%2Flyflexi%2Fclearunusedimagesinmarkdowns%2FUnusedImagesFinder.java)
