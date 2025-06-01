@@ -21,7 +21,7 @@ public class UnusedImagesFinder {
     // 设置扫描根路径
     private static final String DIRECTORY_PATH = "E:\\github\\vsNotes";
     // 排除附件目录
-    private static final String EXCLUDE_IMAGES_DIR = "E:\\github\\vsNotes\\appendix-drawio";
+    private static final String EXCLUDE_IMAGES_DIR = "E:\\github\\vsNotes\\AppendixDrawio";
     // 回收站目录
     private static final String UNUSED_IMAGES_DIR = "E:\\github\\vsNotes\\unused-images";
 
